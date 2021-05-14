@@ -1,0 +1,40 @@
+@charset "EUC-KR";
+	header{
+		text-align:center;
+	}
+	.main{
+		width: 30%;
+		min-width: 571.188px;
+		height: 700px;
+		margin: 0px auto;
+		border: 1px solid lightgray;
+		text-align: center;
+		
+	}
+	.frm{
+		height:80%;
+		width: 100%;
+	}
+	.name{
+		font-size:18px;
+	}
+	input:not([type=button]){
+		width:50%;
+		height: 30px;
+		border: 1px solid ligthgray;
+		
+	}
+	span{
+		color: red;
+		display: none;
+		font-size:12px;
+		position: absolute;
+		margin-left: 102px;
+	}
+	input{
+		border: 2px solid ligthgray;
+	}
+	.user{
+		margin-top:17px;
+	}
+	
